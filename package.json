@@ -1,0 +1,25 @@
+{
+  "name": "food-recipe-nutrition",
+  "version": "1.0.0",
+  "description": "Simple website with API for food recipes and nutrition facts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "recipe",
+    "nutrition",
+    "api",
+    "food"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "commonjs"
+}
